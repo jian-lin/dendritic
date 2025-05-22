@@ -10,6 +10,9 @@
       network
       ssh
       time
+      fonts
+      sarasaFixedScNerdFont
+      inputMethod
       ;
   };
 
@@ -17,6 +20,7 @@
     inherit (config.my.modules.homeManager)
       profileHyprland
       neovim
+      inputMethod
       ;
   };
 }
